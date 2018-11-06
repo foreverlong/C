@@ -7,7 +7,6 @@
 
 #include<stdio.h>
 #include<math.h>
-
 void dayu(double a,double b,double c)
 {
     double x1,x2;
@@ -16,14 +15,12 @@ void dayu(double a,double b,double c)
     x2=(-b-p)/(2*a);
     printf("x1=%lf\nx2=%lf",x1,x2);    
 }
-
 void dengyu(double a,double b,double c)
 {
     double x1;
     x1=(-b+sqrt(b*b-4*a*c))/(2*a);
     printf("x1=x2=%lf",x1);
 }
-
 void xiaoyu(double a,double b,double c)
 {
     double x1,x2;
@@ -32,7 +29,6 @@ void xiaoyu(double a,double b,double c)
     you=sqrt(4*a*c-b*b)/(2*a);
     printf("x1=%lf+%lfi\nx2=%lf-%lfi\n",zuo,you,zuo,you);
 }
-
 int main()
 {
     double a,b,c;
